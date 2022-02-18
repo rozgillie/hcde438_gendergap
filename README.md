@@ -1,1 +1,1 @@
-This is the final project for HCDE 438: Web Technologies.
+This is my final project for HCDE 438: Web Technologies.
