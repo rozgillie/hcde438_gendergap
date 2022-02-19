@@ -1,9 +1,17 @@
 /*imports google font */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+.html{
+  background: #F8F8FB;
+}
+
+
 .App {
   text-align: center;
-  background: #F8F8FB;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -15,6 +23,14 @@
   background: #383B51;
   position: relative;
   display:flex;
+}
+
+.footer{
+  background: #383B51;
+  position:absolute;
+   bottom:0px;
+   height:50px;
+   width:100%
 }
 
 .title{
@@ -30,8 +46,19 @@
   background-repeat: no-repeat;
 }
 
-.body {
-  display:flex;
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
+.h1 {
+  font-size: large;
+  color: #383B51;
+}
 
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
