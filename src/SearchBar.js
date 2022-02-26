@@ -25,4 +25,6 @@ function FreeSolo() {
       {name: "B"}
   ]
  
+
+  
 export default FreeSolo;
