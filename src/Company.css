@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+/*Header searchbar*/
+.header > .css-1jruifh-MuiStack-root{
+  background: #F8F8FB;
+  justify-content: flex-end;
+  color: #F8F8FB;
+}
+
+/* info viz CSS*/
+
+/* Pie chart container*/
+.data{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Pie chart title*/
+.pie-chart > h2{
+  margin: 0;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.company-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 0px 200px 0px 200px;
+}
+
+.company-info > h1{
+  color:#383B51;
+  align-self: flex-start;
+}
+
+.company-info > h3{
+  margin:0;
+  color: #545454;
+  align-self: flex-start;
+}
+
+.company-info > h4{
+  align-self: flex-start;
+}
+
+.company-info > p{
+  align-self: flex-start;
+}
